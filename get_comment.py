@@ -65,7 +65,7 @@ def countdown():
         if not comment:
             continue
         comment_list.append(dict(author=people['name'], commenter=comment[-1][0], comment_time=comment[-1][1],
-                                 comment_content=comment[-1][2].decode('utf8')[0:100].encode('utf8')+'......'))
+                                 comment_content=comment[-1][2].decode('utf8')[0:200].encode('utf8')+'......'))
     json_content = json.dumps(comment_list)
     file = open(filename,'w')
     file.write(json_content)
