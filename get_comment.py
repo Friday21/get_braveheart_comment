@@ -45,7 +45,9 @@ def countdown():
     王阳阳.2017 http://www.newsmth.net/nForum/#!article/BraveHeart/1667498016
     伍震环 http://www.newsmth.net/nForum/#!article/BraveHeart/1667497948
     何茂藤 http://www.newsmth.net/nForum/#!article/BraveHeart/1667497949
-    宋梦迪 http://www.newsmth.net/nForum/#!article/BraveHeart/1667498516"""
+    宋梦迪 http://www.newsmth.net/nForum/#!article/BraveHeart/1667498516
+    秦红伟 http://www.newsmth.net/nForum/#!article/BraveHeart/1667499036
+    武军晖 http://www.newsmth.net/nForum/#!article/BraveHeart/1667499040"""
 
     people_new_list = people_str.split('\n')
     people_list = list()
